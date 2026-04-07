@@ -1,0 +1,10 @@
+# Obsidian
+.obsidian/
+.learning/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
