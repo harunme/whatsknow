@@ -8,3 +8,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# PDFs
+raw/2026-面试准备/*.cv.*
+agentic-soc-platform
