@@ -1,6 +1,6 @@
 # 二、前端开发（React / Vue） · 答案
 
-> 本章共 33 题，覆盖前端基础（Q1-Q10）、React 基础（Q11-Q18）、React 工程化（Q19-Q25）、Vue（Q26-Q29）、前端工程进阶（Q30-Q33）
+> 本章共 34 题，覆盖前端基础（Q1-Q10）、React 基础（Q11-Q19）、React 工程化（Q20-Q26）、Vue（Q27-Q30）、前端工程进阶（Q31-Q34）
 
 ---
 
@@ -19,28 +19,29 @@
 | Q9 | CSS Grid vs Flexbox | ⭐⭐ | 可深问 Grid 命名区域 |
 | Q10 | BFC 原理与作用 | ⭐⭐⭐ | 可深问 IFC |
 | Q11 | 虚拟 DOM + Diff + key | ⭐⭐⭐ | 可深问 Fiber 架构 |
-| Q12 | useState vs useReducer | ⭐⭐ | 可深问 dispatch 闭包 |
-| Q13 | useEffect 执行时机 | ⭐⭐⭐ | 可深问 cleanup 依赖 |
-| Q14 | Fiber 架构、可中断渲染 | ⭐⭐⭐⭐ | 可深问双缓冲 |
-| Q15 | React 性能优化三剑客 | ⭐⭐⭐ | 可深问 profiling 工具 |
-| Q16 | TS 类型基础 | ⭐⭐ | 可深问结构类型系统 |
-| Q17 | 泛型 Generic | ⭐⭐⭐ | 可深问逆变/协变 |
-| Q18 | unknown vs any vs never | ⭐⭐⭐ | 可深问类型守卫 |
-| Q19 | UmiJS 路由模式 | ⭐⭐ | 可深问运行时路由 |
-| Q20 | AntD vs TDesign | ⭐⭐ | 可深问主题定制 |
-| Q21 | 前端国际化 | ⭐⭐ | 可深问动态加载 |
-| Q22 | 前端迁移重构挑战 | ⭐⭐⭐ | 可深问灰度策略 |
-| Q23 | Webpack 构建流程 | ⭐⭐⭐ | 可深问 HMR 原理 |
-| Q24 | Vite vs Webpack | ⭐⭐⭐ | 可深问依赖预构建 |
-| Q25 | 前端性能优化手段 | ⭐⭐ | 可深问 Lighthouse |
-| Q26 | Vue3 Composition API vs React Hooks | ⭐⭐⭐ | 可深问 setup 特点 |
-| Q27 | Vue 响应式原理 | ⭐⭐⭐ | 可深问 ref vs reactive |
-| Q28 | Web Worker + FFmpeg.wasm | ⭐⭐⭐⭐ | 可深问 OffscreenCanvas |
-| Q29 | keep-alive 原理 | ⭐⭐⭐ | 可深问 max 缓存 |
-| Q30 | 微前端 qiankun 沙箱 | ⭐⭐⭐⭐ | 可深问样式隔离 CSS Modules |
-| Q31 | Monorepo 架构 | ⭐⭐⭐ | 可深问 changeset |
-| Q32 | 前端安全 CSP/CSRF | ⭐⭐⭐ | 可深问 JSONP 劫持 |
-| Q33 | 前端监控与 CWV | ⭐⭐⭐ | 可深问 PerformanceObserver |
+| Q12 | React 常用 Hook 函数分类 | ⭐⭐ | 可深问自定义 Hook 规范 |
+| Q13 | useState vs useReducer | ⭐⭐ | 可深问 dispatch 闭包 |
+| Q14 | useEffect 执行时机 | ⭐⭐⭐ | 可深问 cleanup 依赖 |
+| Q15 | Fiber 架构、可中断渲染 | ⭐⭐⭐⭐ | 可深问双缓冲 |
+| Q16 | React 性能优化三剑客 | ⭐⭐⭐ | 可深问 profiling 工具 |
+| Q17 | TS 类型基础 | ⭐⭐ | 可深问结构类型系统 |
+| Q18 | 泛型 Generic | ⭐⭐⭐ | 可深问逆变/协变 |
+| Q19 | unknown vs any vs never | ⭐⭐⭐ | 可深问类型守卫 |
+| Q20 | UmiJS 路由模式 | ⭐⭐ | 可深问运行时路由 |
+| Q21 | AntD vs TDesign | ⭐⭐ | 可深问主题定制 |
+| Q22 | 前端国际化 | ⭐⭐ | 可深问动态加载 |
+| Q23 | 前端迁移重构挑战 | ⭐⭐⭐ | 可深问灰度策略 |
+| Q24 | Webpack 构建流程 | ⭐⭐⭐ | 可深问 HMR 原理 |
+| Q25 | Vite vs Webpack | ⭐⭐⭐ | 可深问依赖预构建 |
+| Q26 | 前端性能优化手段 | ⭐⭐ | 可深问 Lighthouse |
+| Q27 | Vue3 Composition API vs React Hooks | ⭐⭐⭐ | 可深问 setup 特点 |
+| Q28 | Vue 响应式原理 | ⭐⭐⭐ | 可深问 ref vs reactive |
+| Q29 | Web Worker + FFmpeg.wasm | ⭐⭐⭐⭐ | 可深问 OffscreenCanvas |
+| Q30 | keep-alive 原理 | ⭐⭐⭐ | 可深问 max 缓存 |
+| Q31 | 微前端 qiankun 沙箱 | ⭐⭐⭐⭐ | 可深问样式隔离 CSS Modules |
+| Q32 | Monorepo 架构 | ⭐⭐⭐ | 可深问 changeset |
+| Q33 | 前端安全 CSP/CSRF | ⭐⭐⭐ | 可深问 JSONP 劫持 |
+| Q34 | 前端监控与 CWV | ⭐⭐⭐ | 可深问 PerformanceObserver |
 
 ---
 
@@ -329,7 +330,81 @@
 
 ---
 
-### Q12：React Hooks 中 useState 和 useReducer 的区别？什么场景下应该用 useReducer 而不是 useState？
+### Q12：React 常用 Hook 函数有哪些？分别用在什么场景？
+
+**考察点**：React Hook 全景、自定义 Hook 设计原则
+
+**答案要点**：
+
+React Hook 是 React 16.8 引入的特性，让函数组件可以使用 state 和生命周期等 React 特性。按用途分为以下几类：
+
+**① 基础 Hook**
+
+| Hook | 作用 | 典型场景 |
+|------|------|---------|
+| `useState` | 为组件添加状态 | 计数器、表单输入、开关切换 |
+| `useEffect` | 处理副作用（数据获取/订阅/DOM操作） | 组件挂载后请求数据、监听滚动事件 |
+| `useContext` | 读取 Context 值，避免 prop drilling | 主题切换、用户信息、国际化语言 |
+
+**② 状态 Hook**
+
+| Hook | 作用 | 典型场景 |
+|------|------|---------|
+| `useReducer` | 复杂状态逻辑，替代多个 useState | 表单多字段联动、有序状态转换（类似 Redux） |
+| useState 惰性初始化 `useState(() => expensiveInit())` | 初始值懒计算，避免每次渲染重复执行 | 初始值依赖复杂计算或 localStorage 读取 |
+
+**③ 性能 Hook**
+
+| Hook | 作用 | 典型场景 |
+|------|------|---------|
+| `useMemo(() => value, deps)` | 缓存**计算结果** | 大量数据排序/过滤、根据 state 派生复杂数据 |
+| `useCallback((...args) => fn(...args), deps)` | 缓存**函数引用** | 传给子组件的回调、作为 useEffect 稳定依赖 |
+| `React.memo(Component, areEqual?)` | 组件级记忆化，props 不变则不重渲染 | 列表项、纯展示组件、频繁渲染的 heavy 组件 |
+
+**④ Refs Hook**
+
+| Hook | 作用 | 典型场景 |
+|------|------|---------|
+| `useRef(initialValue)` | 持有可变值/保持引用稳定/绑定 DOM | 存储定时器 ID、prevProps/prevState、input focus |
+| `useImperativeHandle(ref, () => ({...}), deps)` | 暴露自定义实例方法给父组件 | 暴露表单 `reset()`、`focus()`，替代 class `ref` |
+
+**⑤ 布局 Effect Hook**
+
+| Hook | 作用 | 典型场景 |
+|------|------|---------|
+| `useLayoutEffect` | DOM 更新后**同步**执行副作用 | 测量 DOM 元素尺寸、依赖 DOM 布局的动画（如 tooltip 定位）、SSG/SSR 水合同步 |
+
+> `useEffect` vs `useLayoutEffect` 区别：前者异步（浏览器渲染后执行，不阻塞），后者同步（DOM 变更后、渲染前执行，阻塞渲染）
+
+**⑥ 高级 Hook**
+
+| Hook | 作用 | 典型场景 |
+|------|------|---------|
+| `useReducer + useContext` | 替代 Redux 的最小化状态管理方案 | 跨组件共享复杂状态，无需引入 Redux |
+| `useId` | SSR 友好唯一 ID（React 18+） | 生成表单 label/for 匹配 ID，避免水合不匹配 |
+| `useTransition` | 标记非紧急更新为"可中断" | 大列表搜索过滤时，搜索框保持响应 |
+| `useDeferredValue(value)` | 返回值的延迟副本 | 高开销列表搜索中，输入框先响应，列表后更新 |
+| `useInsertionEffect` | CSS-in-JS 库专用（DOM 变更前注入样式） | styled-components/emotion 等库内部使用 |
+
+**⑦ 调试 Hook**
+
+| Hook | 作用 | 典型场景 |
+|------|------|---------|
+| `useDebugValue(label?)` | 在 React DevTools 中为自定义 Hook 添加标签 | 库开发者给自定义 Hook 打标签，便于调试 |
+
+**自定义 Hook 规范**：
+- 命名：`use` 前缀开头（React 约定，触发 Hooks 检查）
+- 本质：一个返回数组或对象的普通函数，内部可调用其他 Hooks
+- 常见自定义 Hook：`useDebounce`、`useLocalStorage`、`useFetch`、`usePrevious`
+
+**可能的追问**：
+- React 的 Hooks 规则是什么？为什么不能在循环/条件/嵌套函数中调用 Hook？（基于调用顺序，每次渲染按相同顺序调用）
+- 自定义 Hook 和高阶组件（HOC）/ render props 的区别？（自定义 Hook 更简洁、无嵌套地狱、类型推导更友好）
+- `useRef` 和 `useState` 都能保存值，两者的核心区别是什么？（ref 变化不触发重新渲染，用于"不渲染到 UI"的可变值）
+
+---
+
+### Q13：React Hooks 中 useState 和 useReducer 的区别？什么场景下应该用 useReducer 而不是 useState？
 
 **考察点**：useState vs useReducer、状态管理复杂度
 
@@ -355,7 +430,7 @@
 
 ---
 
-### Q13：useEffect 的执行时机和依赖数组的工作机制？如何避免 useEffect 导致的无限请求？
+### Q14：useEffect 的执行时机和依赖数组的工作机制？如何避免 useEffect 导致的无限请求？
 
 **考察点**：useEffect 生命周期语义、依赖数组、常见陷阱
 
@@ -383,7 +458,7 @@
 
 ---
 
-### Q14：React 的 Fiber 架构解决了什么问题？可中断渲染的含义是什么？
+### Q15：React 的 Fiber 架构解决了什么问题？可中断渲染的含义是什么？
 
 **考察点**：Fiber 架构原理、时间切片、优先级调度
 
@@ -404,7 +479,7 @@
 
 ---
 
-### Q15：React 中如何做性能优化？memo、useMemo、useCallback 分别在什么场景使用？
+### Q16：React 中如何做性能优化？memo、useMemo、useCallback 分别在什么场景使用？
 
 **考察点**：React 性能优化手段、memo 化原理、使用边界
 
@@ -430,7 +505,7 @@
 
 ---
 
-### Q16：TypeScript 的基础类型（number/string/boolean/array/tuple/enum）和自定义类型（interface/type）的区别？
+### Q17：TypeScript 的基础类型（number/string/boolean/array/tuple/enum）和自定义类型（interface/type）的区别？
 
 **考察点**：TS 类型基础、interface vs type 区别
 
@@ -457,7 +532,7 @@
 
 ---
 
-### Q17：什么是泛型（Generic）？`Array<T>`、`<T extends keyof U>`、条件类型 `T extends U ? X : Y` 分别用在什么场景？
+### Q18：什么是泛型（Generic）？`Array<T>`、`<T extends keyof U>`、条件类型 `T extends U ? X : Y` 分别用在什么场景？
 
 **考察点**：TS 泛型、条件类型、映射类型
 
@@ -487,7 +562,7 @@
 
 ---
 
-### Q18：TypeScript 的 `unknown` 和 `any` 的区别？`never` 类型用在什么场景？
+### Q19：TypeScript 的 `unknown` 和 `any` 的区别？`never` 类型用在什么场景？
 
 **考察点**：TS 类型安全层级、never 类型
 
@@ -517,7 +592,7 @@
 
 ## 2.3 React 工程化
 
-### Q19：UmiJS 的约定式路由和配置式路由有什么区别？你在 SOC 平台项目中为什么选择 UmiJS？
+### Q20：UmiJS 的约定式路由和配置式路由有什么区别？你在 SOC 平台项目中为什么选择 UmiJS？
 
 **考察点**：UmiJS 路由机制、约定优于配置
 
@@ -544,7 +619,7 @@
 
 ---
 
-### Q20：Ant Design 和 TDesign 的主要差异是什么？在同一个项目中混用两套组件库会有什么问题？你们是怎么处理的？
+### Q21：Ant Design 和 TDesign 的主要差异是什么？在同一个项目中混用两套组件库会有什么问题？你们是怎么处理的？
 
 **考察点**：UI 组件库选型、设计系统一致性
 
@@ -574,7 +649,7 @@
 
 ---
 
-### Q21：React 项目如何做国际化（i18n）？你们在迁移 TCE 网关时，国际化改造遇到了哪些坑？
+### Q22：React 项目如何做国际化（i18n）？你们在迁移 TCE 网关时，国际化改造遇到了哪些坑？
 
 **考察点**：前端国际化方案、react-intl vs react-i18next
 
@@ -600,7 +675,7 @@
 
 ---
 
-### Q22：你在 SOC 平台主导了前端整体重构，从旧架构迁移到 UmiJS + TCE 网关的过程中，最大的技术挑战是什么？如何保证迁移过程中不影响线上业务？
+### Q23：你在 SOC 平台主导了前端整体重构，从旧架构迁移到 UmiJS + TCE 网关的过程中，最大的技术挑战是什么？如何保证迁移过程中不影响线上业务？
 
 **考察点**：前端重构风险控制、灰度发布、兼容性
 
@@ -624,7 +699,7 @@
 
 ---
 
-### Q23：Webpack 的构建流程（初始化 → 编译 → 输出）是什么？Loader 和 Plugin 的区别？Tree-shaking 的原理？
+### Q24：Webpack 的构建流程（初始化 → 编译 → 输出）是什么？Loader 和 Plugin 的区别？Tree-shaking 的原理？
 
 **考察点**：Webpack 构建机制、Tapable 插件系统
 
@@ -656,7 +731,7 @@
 
 ---
 
-### Q24：Vite 相比 Webpack 的优势是什么？ESM 和 CommonJS 在开发阶段的区别？
+### Q25：Vite 相比 Webpack 的优势是什么？ESM 和 CommonJS 在开发阶段的区别？
 
 **考察点**：Vite 架构原理、ESM、HMR 速度
 
@@ -682,7 +757,7 @@
 
 ---
 
-### Q25：前端项目的性能优化有哪些手段？（代码分割、懒加载、CDN、缓存策略、图片压缩）
+### Q26：前端项目的性能优化有哪些手段？（代码分割、懒加载、CDN、缓存策略、图片压缩）
 
 **考察点**：前端性能优化手段、Performance API
 
@@ -718,7 +793,7 @@
 
 ## 2.4 Vue
 
-### Q26：Vue 3 的 Composition API 和 React Hooks 的本质区别是什么？
+### Q27：Vue 3 的 Composition API 和 React Hooks 的本质区别是什么？
 
 **考察点**：Vue 响应式 vs React 重新执行、Hooks 设计哲学
 
@@ -743,7 +818,7 @@
 
 ---
 
-### Q27：Vue 的响应式原理？Vue 2 的 Object.defineProperty 和 Vue 3 的 Proxy 有什么区别？
+### Q28：Vue 的响应式原理？Vue 2 的 Object.defineProperty 和 Vue 3 的 Proxy 有什么区别？
 
 **考察点**：Vue 响应式原理、Proxy vs defineProperty
 
@@ -768,7 +843,7 @@
 
 ---
 
-### Q28：你在影音编辑审核平台项目中用了 Vue + FFmpeg.wasm，Web Worker 在这个场景中解决了什么问题？如何将大文件编辑的页面卡顿率降低 90%？
+### Q29：你在影音编辑审核平台项目中用了 Vue + FFmpeg.wasm，Web Worker 在这个场景中解决了什么问题？如何将大文件编辑的页面卡顿率降低 90%？
 
 **考察点**：Web Worker 原理、FFmpeg.wasm、UI 主线程保护
 
@@ -793,7 +868,7 @@
 
 ---
 
-### Q29：Vue 的 keep-alive 组件作用是什么？ activated 和 deactivated 生命周期在什么场景下使用？
+### Q30：Vue 的 keep-alive 组件作用是什么？ activated 和 deactivated 生命周期在什么场景下使用？
 
 **考察点**：Vue 缓存组件、生命周期钩子
 
@@ -818,7 +893,7 @@
 
 ## 2.5 前端工程进阶
 
-### Q30：微前端（Micro-Frontend）是什么？qiankun 的沙箱隔离原理（JS 隔离、CSS 隔离）是如何实现的？你们的 SOC 平台有没有考虑微前端？为什么？
+### Q31：微前端（Micro-Frontend）是什么？qiankun 的沙箱隔离原理（JS 隔离、CSS 隔离）是如何实现的？你们的 SOC 平台有没有考虑微前端？为什么？
 
 **考察点**：微前端概念、qiankun 沙箱、架构决策
 
@@ -846,7 +921,7 @@
 
 ---
 
-### Q31：Monorepo（Turborepo/Nx）在大型前端项目中解决了什么问题？依赖共享、子包构建缓存、变更影响分析分别怎么实现？
+### Q32：Monorepo（Turborepo/Nx）在大型前端项目中解决了什么问题？依赖共享、子包构建缓存、变更影响分析分别怎么实现？
 
 **考察点**：Monorepo 架构、依赖管理、构建优化
 
@@ -873,7 +948,7 @@
 
 ---
 
-### Q32：前端安全：XSS、CSRF、点击劫持的防御手段（CSP、SameSite Cookie、X-Frame-Options）分别在前端代码层面如何落地？你们有没有做过前端安全审计？
+### Q33：前端安全：XSS、CSRF、点击劫持的防御手段（CSP、SameSite Cookie、X-Frame-Options）分别在前端代码层面如何落地？你们有没有做过前端安全审计？
 
 **考察点**：前端安全防御、Content Security Policy、实际审计经验
 
@@ -904,7 +979,7 @@
 
 ---
 
-### Q33：前端监控（性能监控、错误监控、行为监控）如何实现？Core Web Vitals（LCP/FID/CLS）对企业级后台系统有什么意义？
+### Q34：前端监控（性能监控、错误监控、行为监控）如何实现？Core Web Vitals（LCP/FID/CLS）对企业级后台系统有什么意义？
 
 **考察点**：前端监控体系、Performance API、用户体验指标
 
